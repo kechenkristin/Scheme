@@ -5,7 +5,7 @@ Robustness, light weight, easy to use, support most of scheme's features and fun
 
 Implemented a scheme intepreter by python, support scheme language' features like lambda, define function in current frame, bind variables in frame arithmic and logic operations, quote, begin make new frame, conditional branch, do mu form)
 
-The main implementation is done by using read-evaluate-apply loop, parsing user's input string into a linked list data structure , passing the linked list ds to different functions to implementing scheme's special forms.
+The main implementation is done by using read-evaluate-apply loop, parsing user's input string into a abstract syntax tree, passing the tree to different functions to implementing scheme's special forms.
 
 Using high order function, recurrision, tail recurrision and data structures like tree and linked list to optimize the performance of codes.
 
